@@ -1,5 +1,10 @@
+import Index from "./components/styledComponent";
 function App() {
-  return <h1>Welcome to react app.</h1>;
+  return (
+    <div className="components">
+      <Index />
+    </div>
+  );
 }
 
 export default App;
